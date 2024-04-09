@@ -1,0 +1,14 @@
+*{
+    margin : 0;
+    padding : 0;
+    box-sizing : border-box;
+}
+a{
+    background-color: #A79277;
+    border-radius: 10%;
+    text-decoration: none;
+    color:black;
+}
+a:hover{
+    background-color: #766855;
+}

@@ -1,0 +1,56 @@
+#header{
+    height: 700px;
+    display:flex;
+    justify-content: center;
+    #text{
+        display:flex;
+        flex-flow: column nowrap;
+        width: 900px;
+        gap: 100px;
+        h1,p{
+            display: inline-flex;
+        }
+        h1{
+            font-size: 150px;
+        }
+        p{
+            justify-content: center;
+            align-items: center;
+            font-size:40px;
+
+        }
+        
+    }
+
+
+
+
+
+}
+@media screen and (max-width: 1300px){
+    #header{
+        #text h1{
+            font-size: 80px;
+        }
+        img{
+            height: 400px;
+            width: 550px;
+        }
+    }
+
+}
+@media screen and (max-width: 1200px){
+    #header{
+        #text h1, p{
+            text-align: center;
+            justify-content: center;
+            align-items: center;
+        }
+        img{
+            display:none;
+        }
+    }
+
+}
+
+

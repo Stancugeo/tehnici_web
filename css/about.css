@@ -1,0 +1,49 @@
+#about{
+    display:flex;
+    flex-flow: row nowrap;
+
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+
+    max-width: 900px;
+    min-width: 500px;
+    height: 500px;
+
+
+    #info-text{
+        display:flex;
+        flex-flow: column;
+        div{
+            flex:1;
+            margin: auto;
+            a{ font-size: 1.5rem; }
+        }
+    }
+    #info-text p{
+        text-align: right;
+    }
+    #info-text a,h1{
+        text-align: center;
+        line-height: 100px;
+    }
+    #info-text a,h1,p{
+        flex:1;
+        
+    }
+
+    @media screen and (max-width: 1200px){
+        img{
+            display: none;
+        }
+        #info-text p{
+            margin-left: 10%;
+            margin-right: 10%;
+            text-align: center;
+        }
+    }    
+    
+
+    
+
+}
